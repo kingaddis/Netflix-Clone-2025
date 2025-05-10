@@ -1,13 +1,14 @@
 import React from 'react'
-import Footer from "../../Components/Footer/Footer"
-import Header from "../../Components/Header/Header"
 
+import Header from "../../Components/Header/Header"
+import Banner from "../../Components/Banner/Banner"
+import Footer from "../../Components/Footer/Footer"
 function Home() {
   return (
     <>
 
     <Header/>
-    
+    <Banner/>
     <Footer/>
     
     </>

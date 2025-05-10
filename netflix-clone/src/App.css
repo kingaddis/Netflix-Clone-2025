@@ -1,6 +1,10 @@
 
 
 .App {
-/* background-color: rgb(55, 56, 43); */
+  flex: 1;
+}
+
+footer {
+  margin-top: auto;
 }
 
