@@ -1,1 +1,3 @@
 /* ✅ Fix it by making an initial commit:
+
+If you're fetching image URLs from another website, like TMDb, you don't necessarily need to include the size (w500, w200, etc.) directly in your requests.jsx. The size is typically specified in the image URL, not the request itself. So, when you fetch the data (such as movie data or poster paths), the URL for the image is included in the response from the API.
