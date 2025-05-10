@@ -1,0 +1,48 @@
+.header_outer_container{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20,20,20);
+    background-color: transparent;
+    height: 10vh;
+    color: white;
+    transition: all 0.5s;
+    /* transition-timing-function: ease-in; */
+    z-index: 1;
+    background-color: black;
+}
+.nav__black{
+    background-color:rgb(20,20,20);;
+}
+ .headre_container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*  li and ul on the left side */
+
+.header_left ul {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    /* padding: 0; 
+    margin: 0; */
+}
+
+.header_left li {
+    list-style: none; /* Remove bullet points */
+    margin: 0 10px; /* Add some space between items */
+}
+/* icons on the right side */
+.header_right ul{
+display: flex;
+}
+
+.header_right li{
+ list-style: none;;
+  margin: 0 10px;
+}
